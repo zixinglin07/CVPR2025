@@ -13,8 +13,8 @@ This table compiles the papers presented at the conference, including a brief de
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **VGGT: Visual Geometry Grounded Transformer** 🏅 | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.11651) <br> [💻 Code](https://github.com/facebookresearch/vggt) <br> [🎥 Video](https://youtu.be/7ZYwJEpCUUA) | 2D video or image to 3d scene model in seconds |
-| **Paper 2 Title** <br> ![Award Candidate](./assets/award_candidate.png) | ![Poster Image](./assets/poster2.png) | [Paper](https://example.com/paper2) <br> [Code](https://example.com/code2) <br> [Video](https://example.com/video2) | This paper presents [short description of the paper]. Award candidate. |
-| **Paper 3 Title** <br> ![Highlighted](./assets/highlighted.png) | ![Poster Image](./assets/poster3.png) | [Paper](https://example.com/paper3) <br> [Code](https://example.com/code3) <br> [Video](https://example.com/video3) | A detailed analysis of [short description]. Highlighted paper. |
+| **S3D: Sketch Driven 3D Model Generation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Generate 3D face from sketch |
+
 
 
 ## Detection, Tracking and Re-identification
@@ -32,13 +32,15 @@ This table compiles the papers presented at the conference, including a brief de
 | **VideoICL: Confidence-based Iterative In-context Learning for Out-of-Distribution Video Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.02186) <br> [💻 Code](https://github.com/KangsanKim07/VideoICL)<br> [🎥 Video](https://youtu.be/00DhDxvwbiY)| In Context Learning approach for video understanding. |
 | **STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Process Spatial and Temporal separately for better understanding |
 | **EdgeVidSum: Real-Time Personalized Video Summarization at the Edge**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Video Summarisation on Edge |
+| **Open World Scene Graph Generation using VLM**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A trainingless VLM and grounding DINO appoach to generate scene graph |
 
-## Foundation Models
+## Foundation Models and Encoders
 
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **Token Cropr: Faster ViTs for Quite a Few Tasks**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Faster ViT |
 | **Perception Encoder: The best visual embeddings are not at the output of the network**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | New CLIP by meta, surpass CLIP for image tasks, with limited video capability due to poor temporal knowledge |
+| **REN: Fast and Efficient Region Encodings from Patch-Based Image Encoders**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | High Speed and efficient image region encoders |
 
 ## Video Grounding / Search
 
@@ -46,7 +48,8 @@ This table compiles the papers presented at the conference, including a brief de
 |-------------|--------|-----------|-------------|
 | **VideoGEM: Training-free Action Grounding in Videos**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Perform prompt decomposition and use static and dynamic weighting GEM module to do action recognition |
 | **Re-thinking Temporal Search for Long-Form Video Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Smart frame selector leveraging on cue and target object search using additional module for zero-shot detection and scoring to identify possible locality before zooming into segment for in depth analysis |
-
+| **RELOCATE: A Simple Training-Free Baseline for Visual Query Localization Using Region-Based Representations**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Using SAM and DINO to perform image-based object query on videos |
+| **BIMBA: Selective Scan Compression for Long Range Video QA**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Uses MAMBA for video search and scanning of spatial-temporal tokens. Said to be more efficient than transformer based architectures |
 
 ## Temporal and Motion in VLM
 
@@ -69,21 +72,33 @@ This table compiles the papers presented at the conference, including a brief de
 | **CALICO: Part-Focused Semantic Co-Segmentation with Large Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Part Segmentation Model for human/animal parts |
 | **EdgeTAM: On-Device Track Anything Model**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | SAM2 Tracking on edge with 20x speed up on edge device|
 
+
 ## Video Anomaly Detection
 
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **Track Any Anomalous Object: A Granular Video Anomaly Detection Pipeline**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Pixel Level anomaly detection and tracking for more fine-grained anomaly detection compared to scene or object anomaly |
-| **VERA: Explainable Video Anomaly Detection via Verbalized Learning of Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Verbalized Learning approach for VLM to detect anomaly using learnable guide prompts |
+| **VERA: Explainable Video Anomaly Detection via Verbalized Learning of Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Verbalized Learning approach for VLM to detect anomaly using learnable guide prompts. The anomaly detection module is a small module based on the VLM to learn a set of guiding questions based on the input prompt to help the VLM verbalize and generalize better. |
+| **AssistPDA: An Online Video Surveillance Assistant for Video Anomaly Prediction, Detection, and Analysis**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Live VLM based anomaly and crime detection by NUS. No code yet |
+
 
 ## Audio Video Fusion
 
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Audio Visual Event understanding to boost foundation models |
+| **UWAV: Uncertainty-weighted Weakly-supervised Audio-Visual Video Parsing**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | AVVP approach that overcomes weakness in inter-segment dependencies and achieve SOTA |
+| **LongVALE: Vision-Audio-Language-Event Benchmark Towards Time-Aware Omni-Modal Perception of Long Videos**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A multimodal vision audio language dataset for temporal understanding, and audio-visual event captioning/detection. Also has their own model with training recipe which has good performance for temporal events. |
+| **LiveCC: Learning Video LLM with streaming speech transcription at scale**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Live closed-captioning / commentary of streaming video events in real time |
 
 ## Image Restoration / Enhancement
 
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **HVI: A New Color Space for Low-light Image Enhancement**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Real time deblurring, denoising, low-light and overexposure enhancement |
+
+## Traffic Understanding
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A dataset collected from traffic videos all over the world, including violation videos for traffic event QA, captioning and violation detection etc. The team finetuned their own Llava OV model on the dataset which can be tested |
