@@ -41,6 +41,7 @@ This table compiles the papers presented at the conference, including a brief de
 | **Token Cropr: Faster ViTs for Quite a Few Tasks**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Faster ViT |
 | **Perception Encoder: The best visual embeddings are not at the output of the network**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | New CLIP by meta, surpass CLIP for image tasks, with limited video capability due to poor temporal knowledge |
 | **REN: Fast and Efficient Region Encodings from Patch-Based Image Encoders**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | High Speed and efficient image region encoders |
+| **CAV-MAE Sync: Improving Contrastive Audio-Visual Mask Autoencoders via Fine-Grained Alignment**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Better audio visual representation |
 
 ## Video Grounding / Search
 
