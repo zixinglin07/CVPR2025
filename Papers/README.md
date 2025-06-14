@@ -35,6 +35,12 @@ This table compiles the papers presented at the conference, including a brief de
 | **STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Process Spatial and Temporal separately for better understanding |
 | **Open World Scene Graph Generation using VLM**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A trainingless VLM and grounding DINO appoach to generate scene graph |
 | **SimCache: Similarity Caching for Efficient VLM-based Scene Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Proposed idea of software cache to store scene embeddings and reduce need for redundant frame inference for similar frames. No paper. |
+## Deepfake
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **Diagnosing and Treating Audio-Video Fake Detection**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Introduces DeepSpeak, an audio-video deepfake detector |
+
 
 ## Edge Models
 
@@ -105,6 +111,7 @@ This table compiles the papers presented at the conference, including a brief de
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Audio Visual Event understanding to boost foundation models |
+| **AVS-Net: Audio-Visual Scale Network for Self-Supervised Monocular Metric Depth Estimation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Audio-visual approach to depth estimation using echolocation |
 | **UWAV: Uncertainty-weighted Weakly-supervised Audio-Visual Video Parsing**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | AVVP approach that overcomes weakness in inter-segment dependencies and achieve SOTA |
 | **LongVALE: Vision-Audio-Language-Event Benchmark Towards Time-Aware Omni-Modal Perception of Long Videos**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A multimodal vision audio language dataset for temporal understanding, and audio-visual event captioning/detection. Also has their own model with training recipe which has good performance for temporal events. |
 | **LiveCC: Learning Video LLM with streaming speech transcription at scale**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Live closed-captioning / commentary of streaming video events in real time |
