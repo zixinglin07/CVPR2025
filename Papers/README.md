@@ -24,6 +24,8 @@ This table compiles the papers presented at the conference, including a brief de
 | **AG-VPReID 2025: The 2nd Aerial-Ground Person ReID Challenge**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.08121) <br> [💻 Code](https://github.com/agvpreid25/AG-VPReID) <br> [🎥 Video](https://youtu.be/00DhDxvwbiY)| Aerial-Ground view re-identification, from 8m to 120m height. Can be used for G2G, G2A, A2G |
 | **CaMuViD: Calibration-Free Multi-View Detection** | ![Poster Image](./assets/poster2.png) | [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Daryani_CaMuViD_Calibration-Free_Multi-View_Detection_CVPR_2025_paper.pdf) <br> [Code](https://github.com/amiretefaghi/CaMuViD) <br> [Video](https://youtu.be/LJzFkKqth6g) | This paper presents [short description of the paper]. Award candidate. |
 | **MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Vision Language Tracker using State Space model Mamba which is faster than transformers |
+| **SAMWISE: Infusing Wisdom in SAM2 for Text-Driven Video Segmentation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Prompt based segmentation implementation with temporal modelling and error correction for accurate video-based tracking. Can maybe test open vocab POI tracking and re-id |
+| **Improving Open-World Object Localization by Discovering Background**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Algorithm Approach to localize scene objects and ignoring background through the use of recognizing top occuring patches and features. Useful for case exhibit use cases and more lightweight |
 
 ## Video Understanding / Summary
 
@@ -31,8 +33,22 @@ This table compiles the papers presented at the conference, including a brief de
 |-------------|--------|-----------|-------------|
 | **VideoICL: Confidence-based Iterative In-context Learning for Out-of-Distribution Video Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.02186) <br> [💻 Code](https://github.com/KangsanKim07/VideoICL)<br> [🎥 Video](https://youtu.be/00DhDxvwbiY)| In Context Learning approach for video understanding. |
 | **STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Process Spatial and Temporal separately for better understanding |
-| **EdgeVidSum: Real-Time Personalized Video Summarization at the Edge**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Video Summarisation on Edge |
 | **Open World Scene Graph Generation using VLM**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A trainingless VLM and grounding DINO appoach to generate scene graph |
+| **SimCache: Similarity Caching for Efficient VLM-based Scene Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Proposed idea of software cache to store scene embeddings and reduce need for redundant frame inference for similar frames. No paper. |
+
+## Edge Models
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **EdgeVidSum: Real-Time Personalized Video Summarization at the Edge**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Video Summarisation on Edge |
+| **EdgeTAM: On-Device Track Anything Model**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | SAM2 Tracking on edge with 20x speed up on edge device|
+| **LLMPi: Optimizing LLMs for High Throughput on Raspberry Pi**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Research on efficient Best-in-Slot edge deployment of LLMs and proposed speech to speech pipeline |
+
+## VLM
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Descision and Reaction**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Streaming VLM that can proactively provide streaming response over time without the need for repeated use prompting |
 
 ## Foundation Models and Encoders
 
@@ -42,6 +58,7 @@ This table compiles the papers presented at the conference, including a brief de
 | **Perception Encoder: The best visual embeddings are not at the output of the network**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | New CLIP by meta, surpass CLIP for image tasks, with limited video capability due to poor temporal knowledge |
 | **REN: Fast and Efficient Region Encodings from Patch-Based Image Encoders**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | High Speed and efficient image region encoders |
 | **CAV-MAE Sync: Improving Contrastive Audio-Visual Mask Autoencoders via Fine-Grained Alignment**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Better audio visual representation |
+| **AdaVid: Adaptive Video-Language Pretraining**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Scalable Video-Language foundation model for various compute requirements |
 
 ## Video Grounding / Search
 
@@ -71,8 +88,7 @@ This table compiles the papers presented at the conference, including a brief de
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **CALICO: Part-Focused Semantic Co-Segmentation with Large Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Part Segmentation Model for human/animal parts |
-| **EdgeTAM: On-Device Track Anything Model**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | SAM2 Tracking on edge with 20x speed up on edge device|
-
+| **Describe Anything: Detailed Localized Image and Video Captioning**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] |Efficient VLM to describe SAM segments in detail, could be used for detailed PAR/VAR |
 
 ## Video Anomaly Detection
 
@@ -80,6 +96,7 @@ This table compiles the papers presented at the conference, including a brief de
 |-------------|--------|-----------|-------------|
 | **Track Any Anomalous Object: A Granular Video Anomaly Detection Pipeline**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Pixel Level anomaly detection and tracking for more fine-grained anomaly detection compared to scene or object anomaly |
 | **VERA: Explainable Video Anomaly Detection via Verbalized Learning of Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Verbalized Learning approach for VLM to detect anomaly using learnable guide prompts. The anomaly detection module is a small module based on the VLM to learn a set of guiding questions based on the input prompt to help the VLM verbalize and generalize better. |
+| **Shopformer: Transformer-Based Framework for Detecting Shoplifting via Human Pose**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Pose-based shoplifting detection based on US privacy laws |
 | **AssistPDA: An Online Video Surveillance Assistant for Video Anomaly Prediction, Detection, and Analysis**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Live VLM based anomaly and crime detection by NUS. No code yet |
 
 
