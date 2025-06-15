@@ -14,6 +14,7 @@ This table compiles the papers presented at the conference, including a brief de
 |-------------|--------|-----------|-------------|
 | **VGGT: Visual Geometry Grounded Transformer** 🏅 | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.11651) <br> [💻 Code](https://github.com/facebookresearch/vggt) <br> [🎥 Video](https://youtu.be/7ZYwJEpCUUA) | 2D video or image to 3d scene model in seconds |
 | **S3D: Sketch Driven 3D Model Generation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Generate 3D face from sketch |
+| **Continuous 3D Perception Model with Persistent State**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | 3D perception from video that can be used on dynamic scenes|
 
 
 
@@ -26,6 +27,9 @@ This table compiles the papers presented at the conference, including a brief de
 | **MambaVLT: Time-Evolving Multimodal State Space Model for Vision-Language Tracking**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Vision Language Tracker using State Space model Mamba which is faster than transformers |
 | **SAMWISE: Infusing Wisdom in SAM2 for Text-Driven Video Segmentation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Prompt based segmentation implementation with temporal modelling and error correction for accurate video-based tracking. Can maybe test open vocab POI tracking and re-id |
 | **Improving Open-World Object Localization by Discovering Background**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Algorithm Approach to localize scene objects and ignoring background through the use of recognizing top occuring patches and features. Useful for case exhibit use cases and more lightweight |
+| **DIFFER: Disentangling Identity Features via Semantic Cues for Clothes-Changing Person Re-ID**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.22912) <br> [💻 Code]<br> [🎥 Video] | Re-id aimed to use learnt features from VLM to re-identifying persons that changed clothes through the use of Gradient-Reversal Layers |
+| **Focusing on Tracks for Online Multi-Object Tracking**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Shim_Focusing_on_Tracks_for_Online_Multi-Object_Tracking_CVPR_2025_paper.html) <br> [💻 Code](https://github.com/kamkyu94/TrackTrack)<br> [🎥 Video] | Tracking approach to leverage more on tracklets to track than heavy reliance on detection from regular trackers |
+| **All-Day Multi-Camera Multi-Target Tracking**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://cvpr.thecvf.com/virtual/2025/poster/35125)<br> [🎥 Video] | Day and Night multicamera and multitarget tracking algorithm/models with built in re-id for cross-camera association |
 
 ## Video Understanding / Summary
 
@@ -40,6 +44,7 @@ This table compiles the papers presented at the conference, including a brief de
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **Diagnosing and Treating Audio-Video Fake Detection**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Introduces DeepSpeak, an audio-video deepfake detector |
+| **Rethinking Vision-Language Model in Face Forensics: Multi-Modal Interpretable Forged Face Detector**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Multimodal Forged Face detector using VLM for text-based identification and explainability |
 
 
 ## Edge Models
@@ -55,6 +60,7 @@ This table compiles the papers presented at the conference, including a brief de
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Descision and Reaction**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Streaming VLM that can proactively provide streaming response over time without the need for repeated use prompting |
+| **FastVLM: Efficient Vision Encoding for Vision Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.13303) <br> [💻 Code]<br> [🎥 Video] | 0.5b to 7b VLM that can process HD videos in speeds faster than Smolvlm 0.5b through the use of their custom FastViTHD backbone. By Apple.  |
 
 ## Foundation Models and Encoders
 
@@ -65,6 +71,8 @@ This table compiles the papers presented at the conference, including a brief de
 | **REN: Fast and Efficient Region Encodings from Patch-Based Image Encoders**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | High Speed and efficient image region encoders |
 | **CAV-MAE Sync: Improving Contrastive Audio-Visual Mask Autoencoders via Fine-Grained Alignment**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Better audio visual representation |
 | **AdaVid: Adaptive Video-Language Pretraining**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Scalable Video-Language foundation model for various compute requirements |
+| **HoVLE: Unleashing the Power of Monolithic Vision-Language Models with Holistic Vision-Language Embedding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.16158) <br> [💻 Code]<br> [🎥 Video] | Alleviates loss of textual capability in LLMs when training into a VLM through the conversion of multimoda embeddings into hollistic embeddings |
+
 
 ## Video Grounding / Search
 
@@ -74,6 +82,8 @@ This table compiles the papers presented at the conference, including a brief de
 | **Re-thinking Temporal Search for Long-Form Video Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Smart frame selector leveraging on cue and target object search using additional module for zero-shot detection and scoring to identify possible locality before zooming into segment for in depth analysis |
 | **RELOCATE: A Simple Training-Free Baseline for Visual Query Localization Using Region-Based Representations**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Using SAM and DINO to perform image-based object query on videos |
 | **BIMBA: Selective Scan Compression for Long Range Video QA**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Uses MAMBA for video search and scanning of spatial-temporal tokens. Said to be more efficient than transformer based architectures |
+| **Number it: Temporal Grounding Videos like Flipping Manga**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Simple idea of video search by appending a frame/page number to the top left of the image, allowing VLM to identify which frame contains the information of interest |
+| **ReVisionLLM: Recursive Vision-Language Model for Temporal Grounding in Hour-Long Videos**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2411.14901) <br> [💻 Code]<br> [🎥 Video] | Idea to train an encoder module to identify the rough location of the target video scene in 5min chunk, before zooming into frame-level for specific target segment|
 
 ## Temporal and Motion in VLM
 
@@ -88,6 +98,11 @@ This table compiles the papers presented at the conference, including a brief de
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **Prompt-CAM: Making Vision Transformers Interpretable for Fine-Grained Analysis**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A simple finetune model to visualize a pre-trained model's attention behaviour |
+| **Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2409.17146) <br> [💻 Code]<br> [🎥 Video] | Presents state of the art VLM and dataset by Ai2 that excels in academia, image-based counting and pointing  |
+| **Identifying and Mitigating Position Bias of Multi-image Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.13792) <br> [💻 Code]<br> [🎥 Video] | An evaluation of multi-image VLM captioning and attention bias, and proposes a way to overcome it using  SOFt Attention (SOFA) |
+| **Mitigating Hallucinations in Large Vision-Language Models via DPO: On-Policy Data Hold the Key**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2501.09695) <br> [💻 Code]<br> [🎥 Video] | A novel DPO framework called On-Policy Alignment-DPO (OPA-DPO) to further reduce hallucination to overcome the KL divergence between updated policy and reference policy in standard DPO  |
+| **Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.14171#:~:text=We%20probe%20models%20to%20express,do%20emerge%20within%20these%20models.) <br> [💻 Code]<br> [🎥 Video] | Identifies inherent limitation with VLMs in video-based spatial awareness extending to counting, distance and referencing objects. Paper proposes dataset repurposed from 3D dataset to alleviate some of these problems  |
+| **Overcoming Shortcut Problem in VLM for Robust Out-of-Distribution Detection**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.13792) <br> [💻 Code]<br> [🎥 Video] | Identifies the issue of background interference in VLM's for OOD data, associating background of in-domain training for classification. Proposes finetuning dataset to overcome this problem |
 
 ## Segmentation
 
@@ -95,6 +110,7 @@ This table compiles the papers presented at the conference, including a brief de
 |-------------|--------|-----------|-------------|
 | **CALICO: Part-Focused Semantic Co-Segmentation with Large Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Part Segmentation Model for human/animal parts |
 | **Describe Anything: Detailed Localized Image and Video Captioning**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] |Efficient VLM to describe SAM segments in detail, could be used for detailed PAR/VAR |
+| **Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2504.03193) <br> [💻 Code]<br> [🎥 Video] | Using MAMBA to bridge the capabilites of CLIP in text-alignment and DINOv2 in capturing features to perform semantic segmentation |
 
 ## Video Anomaly Detection
 
@@ -121,9 +137,20 @@ This table compiles the papers presented at the conference, including a brief de
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **HVI: A New Color Space for Low-light Image Enhancement**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Real time deblurring, denoising, low-light and overexposure enhancement |
+| **OSDFace: One-Step Diffusion Model for Face Restoration**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2411.17163) <br> [💻 Code]<br> [🎥 Video] | Promising efficient face image enhancer/deblurrer. Can be used in a FR pipeline where initial match uses the blur image with original/augmented database before performing restoration and use it on the actual database if the initial match is beyond a certain threshold |
 
 ## Traffic Understanding
 
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
 | **RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A dataset collected from traffic videos all over the world, including violation videos for traffic event QA, captioning and violation detection etc. The team finetuned their own Llava OV model on the dataset which can be tested |
+| **EchoTraffic: Enhancing Traffic Anomaly Understanding with Audio-Visual Insights**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://openaccess.thecvf.com//content/CVPR2025/papers/Xing_EchoTraffic_Enhancing_Traffic_Anomaly_Understanding_with_Audio-Visual_Insights_CVPR_2025_paper.pdf) <br> [💻 Code]<br> [🎥 Video] | Audio-Visual-Text approach for traffic anomaly understanding using a fusion of audio spectro signal to identify possible emergency brakes, collisions and repeated horning. Proposes dataset and finetuned model |
+
+
+## Vision Language Action (VLA)
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **Magma: A Foundation Model for Multimodal AI Agentst**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2502.13130) <br> [💻 Code]<br> [🎥 Video] | All in one robot based VLM includng various VLA and agentic tasks. Still limited in terms of robot navigation, expected to have a updated version later in 2025 |
+| **From Multimodal LLMs to Generalist Embodied Agents: Methods and Lessons**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/html/2412.08442v1) <br> [💻 Code]<br> [🎥 Video] | Proposed method to train generalist embodied agents for VLA from MLLMs |
+| **Plug-and-Play Versatile Compressed Video Enhancement**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/html/2412.08442v1) <br> [💻 Code]<br> [🎥 Video] | Method to overcome reduction in video quality from compressed video, proposes enhancement approach. Code to be out soon. |
