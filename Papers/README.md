@@ -15,7 +15,30 @@ This table compiles the papers presented at the conference, including a brief de
 | **VGGT: Visual Geometry Grounded Transformer** 🏅 | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.11651) <br> [💻 Code](https://github.com/facebookresearch/vggt) <br> [🎥 Video](https://youtu.be/7ZYwJEpCUUA) | 2D video or image to 3d scene model in seconds |
 | **S3D: Sketch Driven 3D Model Generation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Generate 3D face from sketch |
 | **Continuous 3D Perception Model with Persistent State**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | 3D perception from video that can be used on dynamic scenes|
+| **Robust Multi-Object 4D Generation for In-the-wild Videos**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Chu_Robust_Multi-Object_4D_Generation_for_In-the-wild_Videos_CVPR_2025_paper.pdf) <br> [💻 Code]<br> [🎥 Video] | Can generate dynamic 4d scenes from 2d videos. Motion is captured through a learnt deformation network |
+| **CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Chu_Robust_Multi-Object_4D_Generation_for_In-the-wild_Videos_CVPR_2025_paper.pdf) <br> [💻 Code]<br> [🎥 Video] | Create 4D scenes from single video |
+| **Uni4D: Unifying Visual Foundation Models for 4D Modeling from a Single Video**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.21761) <br> [💻 Code]<br> [🎥 Video] | Create 4D models from single video |
 
+## Audio Video Fusion
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Audio Visual Event understanding to boost foundation models |
+| **AVS-Net: Audio-Visual Scale Network for Self-Supervised Monocular Metric Depth Estimation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Audio-visual approach to depth estimation using echolocation |
+| **UWAV: Uncertainty-weighted Weakly-supervised Audio-Visual Video Parsing**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | AVVP approach that overcomes weakness in inter-segment dependencies and achieve SOTA |
+| **LongVALE: Vision-Audio-Language-Event Benchmark Towards Time-Aware Omni-Modal Perception of Long Videos**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A multimodal vision audio language dataset for temporal understanding, and audio-visual event captioning/detection. Also has their own model with training recipe which has good performance for temporal events. |
+| **LiveCC: Learning Video LLM with streaming speech transcription at scale**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Live closed-captioning / commentary of streaming video events in real time |
+| **Supervising Sound Localization by In-the-wild Egomotion**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Min_Supervising_Sound_Localization_by_In-the-wild_Egomotion_CVPR_2025_paper.pdf) <br> [💻 Code]<br> [🎥 Video] | Sound direction prediction with respect to the position / motion of the camera. Code out soon |
+| **AVIGATE: Learning Audio-guided Video Representation with Gated Attention for Video-Text Retrieval**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2504.02397) <br> [💻 Code]<br> [🎥 Video] | A gated fusion approach to toggle audio on and off for video understanding depending learnt relevance. Audio + Video encoded together and identify relevance through gated function with text embeddings. Open Source eventually.  |
+| **Robust Audio-Visual Segmentation via Audio-Guided Visual Convergent Alignment**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.12847) <br> [💻 Code]<br> [🎥 Video] | Audio Visual segmentation approach through learnt visual audio representations. Open source eventually. |
+| **Crab: A Unified Audio-Visual Scene Understanding Model with Explicit Cooperation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/html/2503.13068v1) <br> [💻 Code]<br> [🎥 Video] | Audio Visual scene understanding architecture that can be used via finetuning |
+
+## Image Restoration / Enhancement
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **HVI: A New Color Space for Low-light Image Enhancement**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Real time deblurring, denoising, low-light and overexposure enhancement |
+| **OSDFace: One-Step Diffusion Model for Face Restoration**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2411.17163) <br> [💻 Code]<br> [🎥 Video] | Promising efficient face image enhancer/deblurrer. Can be used in a FR pipeline where initial match uses the blur image with original/augmented database before performing restoration and use it on the actual database if the initial match is beyond a certain threshold |
 
 
 ## Detection, Tracking and Re-identification
@@ -29,16 +52,12 @@ This table compiles the papers presented at the conference, including a brief de
 | **Improving Open-World Object Localization by Discovering Background**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Algorithm Approach to localize scene objects and ignoring background through the use of recognizing top occuring patches and features. Useful for case exhibit use cases and more lightweight |
 | **DIFFER: Disentangling Identity Features via Semantic Cues for Clothes-Changing Person Re-ID**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.22912) <br> [💻 Code]<br> [🎥 Video] | Re-id aimed to use learnt features from VLM to re-identifying persons that changed clothes through the use of Gradient-Reversal Layers |
 | **Focusing on Tracks for Online Multi-Object Tracking**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://openaccess.thecvf.com/content/CVPR2025/html/Shim_Focusing_on_Tracks_for_Online_Multi-Object_Tracking_CVPR_2025_paper.html) <br> [💻 Code](https://github.com/kamkyu94/TrackTrack)<br> [🎥 Video] | Tracking approach to leverage more on tracklets to track than heavy reliance on detection from regular trackers |
-| **All-Day Multi-Camera Multi-Target Tracking**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://cvpr.thecvf.com/virtual/2025/poster/35125)<br> [🎥 Video] | Day and Night multicamera and multitarget tracking algorithm/models with built in re-id for cross-camera association |
+| **All-Day Multi-Camera Multi-Target Tracking**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://cvpr.thecvf.com/virtual/2025/poster/35125)<br> [💻 Code]<br> [🎥 Video] | Day and Night multicamera and multitarget tracking algorithm/models with built in re-id for cross-camera association |
+| **EntitySAM: Segment Everything in Video**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://cvpr.thecvf.com/virtual/2025/poster/35125)<br> [💻 Code] (https://github.com/yuanc3/Pose2ID)<br> [🎥 Video] | SAM based tracking with memory encoder using features from Dinov2 as prompt into SAM |
+| **Pose2ID: From Poses to Identity: Training-Free Person Re-Identification via Feature Centralization**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://cvpr.thecvf.com/virtual/2025/poster/35125)<br> [🎥 Video] | Uses human + pose estimation to generate more images of the target person for feature enhancement through the use of StableDiffusion. Training free and modular, allowing for use of other re-id and pose estimation model. Speed may not be optimized. |
+| **Learning from Synchronization: Self-Supervised Uncalibrated Multi-View Person Association in Challenging Scenes**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.13739)<br> [🎥 Video] | Approach to handle multiview association for synchronized footage (same timestamp) for detection tracking and re-id. Only intended for overlapping cameras. |
+| **On Denoising Walking Videos for Gait Recognition**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2505.18582)<br> [🎥 Video] | An update from OpenGait to denoise walking videos for better gait extraction. Code out soon.|
 
-## Video Understanding / Summary
-
-| Paper Title | Poster | Resources | Description |
-|-------------|--------|-----------|-------------|
-| **VideoICL: Confidence-based Iterative In-context Learning for Out-of-Distribution Video Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.02186) <br> [💻 Code](https://github.com/KangsanKim07/VideoICL)<br> [🎥 Video](https://youtu.be/00DhDxvwbiY)| In Context Learning approach for video understanding. |
-| **STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Process Spatial and Temporal separately for better understanding |
-| **Open World Scene Graph Generation using VLM**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A trainingless VLM and grounding DINO appoach to generate scene graph |
-| **SimCache: Similarity Caching for Efficient VLM-based Scene Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Proposed idea of software cache to store scene embeddings and reduce need for redundant frame inference for similar frames. No paper. |
 ## Deepfake
 
 | Paper Title | Poster | Resources | Description |
@@ -55,13 +74,6 @@ This table compiles the papers presented at the conference, including a brief de
 | **EdgeTAM: On-Device Track Anything Model**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | SAM2 Tracking on edge with 20x speed up on edge device|
 | **LLMPi: Optimizing LLMs for High Throughput on Raspberry Pi**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Research on efficient Best-in-Slot edge deployment of LLMs and proposed speech to speech pipeline |
 
-## VLM
-
-| Paper Title | Poster | Resources | Description |
-|-------------|--------|-----------|-------------|
-| **Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Descision and Reaction**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Streaming VLM that can proactively provide streaming response over time without the need for repeated use prompting |
-| **FastVLM: Efficient Vision Encoding for Vision Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.13303) <br> [💻 Code]<br> [🎥 Video] | 0.5b to 7b VLM that can process HD videos in speeds faster than Smolvlm 0.5b through the use of their custom FastViTHD backbone. By Apple.  |
-
 ## Foundation Models and Encoders
 
 | Paper Title | Poster | Resources | Description |
@@ -72,6 +84,29 @@ This table compiles the papers presented at the conference, including a brief de
 | **CAV-MAE Sync: Improving Contrastive Audio-Visual Mask Autoencoders via Fine-Grained Alignment**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Better audio visual representation |
 | **AdaVid: Adaptive Video-Language Pretraining**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Scalable Video-Language foundation model for various compute requirements |
 | **HoVLE: Unleashing the Power of Monolithic Vision-Language Models with Holistic Vision-Language Embedding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.16158) <br> [💻 Code]<br> [🎥 Video] | Alleviates loss of textual capability in LLMs when training into a VLM through the conversion of multimoda embeddings into hollistic embeddings |
+| **MambaVision: A Hybrid Mamba-Transformer Vision Backbone**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2407.08083) <br> [💻 Code]<br> [🎥 Video] | Alleviates loss of textual capability in LLMs when training into a VLM through the conversion of multimoda embeddings into hollistic embeddings |
+
+
+## Video Understanding / Summary
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **VideoICL: Confidence-based Iterative In-context Learning for Out-of-Distribution Video Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.02186) <br> [💻 Code](https://github.com/KangsanKim07/VideoICL)<br> [🎥 Video](https://youtu.be/00DhDxvwbiY)| In Context Learning approach for video understanding. |
+| **STPro: Spatial and Temporal Progressive Learning for Weakly Supervised Spatio-Temporal Grounding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Process Spatial and Temporal separately for better understanding |
+| **Open World Scene Graph Generation using VLM**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A trainingless VLM and grounding DINO appoach to generate scene graph |
+| **SimCache: Similarity Caching for Efficient VLM-based Scene Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Proposed idea of software cache to store scene embeddings and reduce need for redundant frame inference for similar frames. No paper. |
+| **Video-XL: Extra-Long Vision Language Model for Hour-Scale Video Understanding**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] (https://arxiv.org/abs/2409.14485) <br> [💻 Code](https://github.com/VectorSpaceLab/Video-XL/tree/main/Video-XL-2) <br> [🎥 Video] | Proposed Llava + compression + dynamic interval pipeline. Frame cosine similarity to decide dynamic sampling interval (low fps for high similarity) |
+| **SEAL: Semantic Attention Learning for Long Video Representation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] (https://arxiv.org/abs/2412.01798) <br> [💻 Code](https://github.com/VectorSpaceLab/Video-XL/tree/main/Video-XL-2) <br> [🎥 Video] | Overcoming challenges in video understanding by decomposing to scene, object and action based understanding. Through specialized tokens and incorporation of other modules such as SAM for more hollistic and accurate understanding. |
+
+
+
+## VLM
+
+| Paper Title | Poster | Resources | Description |
+|-------------|--------|-----------|-------------|
+| **Dispider: Enabling Video LLMs with Active Real-Time Interaction via Disentangled Perception, Descision and Reaction**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Streaming VLM that can proactively provide streaming response over time without the need for repeated use prompting |
+| **FastVLM: Efficient Vision Encoding for Vision Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.13303) <br> [💻 Code]<br> [🎥 Video] | 0.5b to 7b VLM that can process HD videos in speeds faster than Smolvlm 0.5b through the use of their custom FastViTHD backbone. By Apple. |
+| **Dino.txt: DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.13303) <br> [💻 Code]<br> [🎥 Video] | Enhancing dinov2 with text ability, surpasses CLIP for image-text association and representation learning  |
 
 
 ## Video Grounding / Search
@@ -103,6 +138,7 @@ This table compiles the papers presented at the conference, including a brief de
 | **Mitigating Hallucinations in Large Vision-Language Models via DPO: On-Policy Data Hold the Key**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2501.09695) <br> [💻 Code]<br> [🎥 Video] | A novel DPO framework called On-Policy Alignment-DPO (OPA-DPO) to further reduce hallucination to overcome the KL divergence between updated policy and reference policy in standard DPO  |
 | **Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2412.14171#:~:text=We%20probe%20models%20to%20express,do%20emerge%20within%20these%20models.) <br> [💻 Code]<br> [🎥 Video] | Identifies inherent limitation with VLMs in video-based spatial awareness extending to counting, distance and referencing objects. Paper proposes dataset repurposed from 3D dataset to alleviate some of these problems  |
 | **Overcoming Shortcut Problem in VLM for Robust Out-of-Distribution Detection**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.13792) <br> [💻 Code]<br> [🎥 Video] | Identifies the issue of background interference in VLM's for OOD data, associating background of in-domain training for classification. Proposes finetuning dataset to overcome this problem |
+| **LoRASculpt: Sculpting LoRA for Harmonizing General and Specialized Knowledge in Multimodal Large Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.16843) <br> [💻 Code]<br> [🎥 Video] | Approach to overcome catastrophic forgetting issue from lora - via freezing connector. Surpass lora peft based approaches. |
 
 ## Segmentation
 
@@ -111,6 +147,8 @@ This table compiles the papers presented at the conference, including a brief de
 | **CALICO: Part-Focused Semantic Co-Segmentation with Large Vision-Language Models**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Part Segmentation Model for human/animal parts |
 | **Describe Anything: Detailed Localized Image and Video Captioning**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] |Efficient VLM to describe SAM segments in detail, could be used for detailed PAR/VAR |
 | **Mamba as a Bridge: Where Vision Foundation Models Meet Vision Language Models for Domain-Generalized Semantic Segmentation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2504.03193) <br> [💻 Code]<br> [🎥 Video] | Using MAMBA to bridge the capabilites of CLIP in text-alignment and DINOv2 in capturing features to perform semantic segmentation |
+| **Your ViT is Secretly an Image Segmentation Model**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.19108) <br> [💻 Code]<br> [🎥 Video] | Low-param transformer only segmentation model, can explore for lightweight options |
+| **Effective SAM Combination for Open-Vocabulary Semantic Segmentation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2411.14723) <br> [💻 Code]<br> [🎥 Video] | Efficient open vocab segmentation for SAM using proposes ESC-Net pipeline |
 
 ## Video Anomaly Detection
 
@@ -122,22 +160,6 @@ This table compiles the papers presented at the conference, including a brief de
 | **AssistPDA: An Online Video Surveillance Assistant for Video Anomaly Prediction, Detection, and Analysis**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Live VLM based anomaly and crime detection by NUS. No code yet |
 
 
-## Audio Video Fusion
-
-| Paper Title | Poster | Resources | Description |
-|-------------|--------|-----------|-------------|
-| **Adapting to the Unknown: Training-Free Audio-Visual Event Perception with Dynamic Thresholds**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Audio Visual Event understanding to boost foundation models |
-| **AVS-Net: Audio-Visual Scale Network for Self-Supervised Monocular Metric Depth Estimation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Audio-visual approach to depth estimation using echolocation |
-| **UWAV: Uncertainty-weighted Weakly-supervised Audio-Visual Video Parsing**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | AVVP approach that overcomes weakness in inter-segment dependencies and achieve SOTA |
-| **LongVALE: Vision-Audio-Language-Event Benchmark Towards Time-Aware Omni-Modal Perception of Long Videos**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A multimodal vision audio language dataset for temporal understanding, and audio-visual event captioning/detection. Also has their own model with training recipe which has good performance for temporal events. |
-| **LiveCC: Learning Video LLM with streaming speech transcription at scale**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Live closed-captioning / commentary of streaming video events in real time |
-
-## Image Restoration / Enhancement
-
-| Paper Title | Poster | Resources | Description |
-|-------------|--------|-----------|-------------|
-| **HVI: A New Color Space for Low-light Image Enhancement**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Real time deblurring, denoising, low-light and overexposure enhancement |
-| **OSDFace: One-Step Diffusion Model for Face Restoration**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2411.17163) <br> [💻 Code]<br> [🎥 Video] | Promising efficient face image enhancer/deblurrer. Can be used in a FR pipeline where initial match uses the blur image with original/augmented database before performing restoration and use it on the actual database if the initial match is beyond a certain threshold |
 
 ## Traffic Understanding
 
@@ -145,6 +167,7 @@ This table compiles the papers presented at the conference, including a brief de
 |-------------|--------|-----------|-------------|
 | **RoadSocial: A Diverse VideoQA Dataset and Benchmark for Road Event Understanding from Social Video Narratives**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | A dataset collected from traffic videos all over the world, including violation videos for traffic event QA, captioning and violation detection etc. The team finetuned their own Llava OV model on the dataset which can be tested |
 | **EchoTraffic: Enhancing Traffic Anomaly Understanding with Audio-Visual Insights**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://openaccess.thecvf.com//content/CVPR2025/papers/Xing_EchoTraffic_Enhancing_Traffic_Anomaly_Understanding_with_Audio-Visual_Insights_CVPR_2025_paper.pdf) <br> [💻 Code]<br> [🎥 Video] | Audio-Visual-Text approach for traffic anomaly understanding using a fusion of audio spectro signal to identify possible emergency brakes, collisions and repeated horning. Proposes dataset and finetuned model |
+| **Embodied Scene Understanding for Vision Language Models via MetaVQA**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Embodied traffic scene understanding for vla via MetaVQA, trained on real and ego-centric video. But do not have knowledge of violation due to vla focus. |
 
 
 ## Vision Language Action (VLA)
