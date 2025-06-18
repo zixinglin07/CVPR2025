@@ -2,6 +2,24 @@
 
 This table compiles the papers presented at the conference, including a brief description, poster images, and links to resources such as the paper, code, and video. Some papers are highlighted, best paper candidates, or award candidates. All papers can be found in this [link](https://cvpr.thecvf.com/virtual/2025/papers.html?search=).
 
+### 🗂️ Table of Contents
+
+- [3D](#3d)
+- [Audio Video Fusion](#audio-video-fusion)
+- [Image Restoration / Enhancement](#image-restoration--enhancement)
+- [Detection, Tracking and Re-identification](#detection-tracking-and-re-identification)
+- [Deepfake](#deepfake)
+- [Edge Models](#edge-models)
+- [Foundation Models and Encoders](#foundation-models-and-encoders)
+- [Video Understanding / Summary](#video-understanding--summary)
+- [VLM](#vlm)
+- [Video Grounding / Search](#video-grounding--search)
+- [Temporal and Motion in VLM](#temporal-and-motion-in-vlm)
+- [Pre-training, Finetuning and Visualization](#pre-training-finetuning-and-visualization)
+- [Segmentation](#segmentation)
+- [Video Anomaly Detection](#video-anomaly-detection)
+- [Traffic Understanding](#traffic-understanding)
+- [Vision Language Action (VLA)](#vision-language-action-vla)
 ## Icons Legend
 
 - 🏅 **Best Paper**: This paper has been selected as the best paper of the conference.
