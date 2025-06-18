@@ -12,7 +12,7 @@ This table compiles the papers presented at the conference, including a brief de
 
 | Paper Title | Poster | Resources | Description |
 |-------------|--------|-----------|-------------|
-| **VGGT: Visual Geometry Grounded Transformer** 🏅 | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://arxiv.org/abs/2503.11651) <br> [💻 Code](https://github.com/facebookresearch/vggt) <br> [🎥 Video](https://youtu.be/7ZYwJEpCUUA) | 2D video or image to 3d scene model in seconds |
+| **VGGT: Visual Geometry Grounded Transformer** 🏅 | ![Poster Image](assets/vggt.png) | [📄 Paper](https://arxiv.org/abs/2503.11651) <br> [💻 Code](https://github.com/facebookresearch/vggt) <br> [🎥 Video](https://youtu.be/7ZYwJEpCUUA) | 2D video or image to 3d scene model in seconds |
 | **S3D: Sketch Driven 3D Model Generation**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | Generate 3D face from sketch |
 | **Continuous 3D Perception Model with Persistent State**  | ![Poster Image](./assets/poster1.png) | [📄 Paper] <br> [💻 Code]<br> [🎥 Video] | 3D perception from video that can be used on dynamic scenes|
 | **Robust Multi-Object 4D Generation for In-the-wild Videos**  | ![Poster Image](./assets/poster1.png) | [📄 Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Chu_Robust_Multi-Object_4D_Generation_for_In-the-wild_Videos_CVPR_2025_paper.pdf) <br> [💻 Code]<br> [🎥 Video] | Can generate dynamic 4d scenes from 2d videos. Motion is captured through a learnt deformation network |
