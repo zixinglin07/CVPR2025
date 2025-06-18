@@ -1,6 +1,6 @@
 ## Workshops
 
-These are relevant workshop for Q3 in my opinion. those with notes are the ones that I attended and took notes for. Full workshop list can be found [here](https://cvpr.thecvf.com/virtual/2025/events/workshop)
+These are relevant workshop for Q Team. those with notes are the ones that I attended and took notes for. Full workshop list can be found [here](https://cvpr.thecvf.com/virtual/2025/events/workshop)
 | Workshop Title                                                                 | Track | Resources |
 |--------------------------------------------------------------------------------|-------|-----------|
 | Sight and Sound                                                                |    Multimodal learning     | [Notes](Sight%20and%20Sound/README.md) &#124; [Workshop](https://sightsound.org/) &#124; Video: Pending |
@@ -16,7 +16,7 @@ These are relevant workshop for Q3 in my opinion. those with notes are the ones 
 
 
 ## Tutorials
-These are relevant Tutorials for Q3 in my opinion. Full tutorial list can be found [here](https://cvpr.thecvf.com/virtual/2025/events/tutorial)
+These are relevant Tutorials for Q Teamn. Full tutorial list can be found [here](https://cvpr.thecvf.com/virtual/2025/events/tutorial)
 
 | Tutorial Title                                                                 | Resources |
 |--------------------------------------------------------------------------------|-----------|
