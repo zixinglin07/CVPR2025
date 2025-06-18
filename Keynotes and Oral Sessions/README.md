@@ -1,6 +1,6 @@
 # Conference Presentations
 
-Welcome to the official repository for the [Conference Name] presentations. Below you will find direct links to all Keynotes and Oral Sessions. Click on any session title to access the corresponding materials or recordings.
+Welcome to the official repository for the CVPR presentations on Day 3 to 5. Below you will find direct links to all Keynotes and Oral Sessions. Click on any session title to access the corresponding materials or recordings.
 
 ---
 
@@ -22,6 +22,9 @@ Each oral session contains 5 to 6 oral paper presentations. The paper titles  fo
 
 ### Day 3
 
+[Video Link](https://www.youtube.com/watch?v=kbWJvjh4ovA&ab_channel=ComputerVisionFoundationVideos)
+
+
 #### Session 1: Image and Video Synthesis
 - Motion Prompting: Controlling Video Generation with Motion Trajectories
 - Go-with-the-Flow: Motion-Controllable Video Diffusion Models Using Real-Time Warped Noise
@@ -39,6 +42,8 @@ Each oral session contains 5 to 6 oral paper presentations. The paper titles  fo
 
 ### Day 4
 
+[Video Link](https://www.youtube.com/watch?v=_5mtp9LiT5s&ab_channel=ComputerVisionFoundationVideos)
+
 #### Session 3: 3D Computer Vision
 - MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos
 - Stereo4D: Learning How Things Move in 3D from Internet Stereo Videos
@@ -55,6 +60,8 @@ Each oral session contains 5 to 6 oral paper presentations. The paper titles  fo
 
 ### Day 5
 
+[Video Link](https://www.youtube.com/watch?v=TaJVWuvnVEE&ab_channel=ComputerVisionFoundationVideos)
+
 #### Session 5: Generative AI
 - Improving Diffusion Inverse Problem Solving with Decoupled Noise Annealing
 - DesignDiffusion: High-Quality Text-to-Design Image Generation with Diffusion Models
@@ -68,12 +75,3 @@ Each oral session contains 5 to 6 oral paper presentations. The paper titles  fo
 - DNF: Unconditional 4D Generation with Dictionary-based Neural Fields
 - CAT4D: Create Anything in 4D with Multi-View Video Diffusion Models
 - Diffusion Renderer: Neural Inverse and Forward Rendering with Video Diffusion Models
-
-### Video Links
-| Title | Link |
-|---------------|------|
-| Day 3: Image and Video Synthesis, 3D 	Computer Vision  | [View Session](https://www.youtube.com/watch?v=kbWJvjh4ovA&ab_channel=ComputerVisionFoundationVideos) |
-| Day 4: 3D Computer Vision, Image and Video Synthesis | [View Session](https://www.youtube.com/watch?v=_5mtp9LiT5s&ab_channel=ComputerVisionFoundationVideos) |
-| Day 5: Generative AI, 3D from Single or Multi-View Sensors| [View Session](https://www.youtube.com/watch?v=TaJVWuvnVEE&ab_channel=ComputerVisionFoundationVideos) |
-
----
