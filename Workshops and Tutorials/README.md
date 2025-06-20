@@ -23,3 +23,12 @@ These are relevant Tutorials for Q Teamn. Full tutorial list can be found [here]
 | Edge AI in Action: Technologies and Applications                                                             | [Tutorial](https://www.fabricionarcizo.com/cvpr2025-edge-ai-in-action/) &#124; [Video](https://www.youtube.com/watch?v=RhIdDOJAlo8) |
 | Recent Advances in Vision Foundation Models                                                             | [Tutorial](https://vlp-tutorial.github.io/) &#124; [Video](https://youtu.be/yMRzC6oJ4W0) |
 | Full-Stack, GPU-based Acceleration of Deep Learning and Foundation Models                                                        | [Tutorial](https://nvlabs.github.io/EfficientDL/) &#124; [Video](https://youtu.be/ktBT_SkrYHU) |
+| From Video Generation to World Model          | [Slides](https://world-model-tutorial.github.io/) [Video](https://youtu.be/XiYayWC5pao) |
+| Foundations of Interpretable AI        | [Slides](https://cvpr.thecvf.com/media/cvpr-2025/Slides/35900_X6TvH1L.pdf) [Video](https://youtu.be/vTO49wnGurA) |
+| Cognitive AI for the Future: Agentic Multimodal Models and RAG for Vision Language Applications, from Training to Deployment       | [Project](https://github.com/zhuo-yoyowz/cvpr-2025) [Video](https://youtu.be/WTZilpGU2tU) |
+| Volumetric Video in the Real World  | [Project](https://nvlabs.github.io/cvpr2025-volumetric-video-tutorial/) [Video](https://youtu.be/AumlqB08V7c) |
+| Robotics 101: An Odyssey from A Vision Perspective | [Project](https://opendrivelab.com/cvpr2025/tutorial/) [Video](https://youtu.be/AGNcw4qnimk) |
+| Efficient Text-to-Image/Video modeling | [Project](https://efficient-genai.github.io/) [Video]|
+
+
+
